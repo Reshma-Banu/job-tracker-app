@@ -36,6 +36,8 @@ npm start
 ```
 
 2. **Open your browser**:
+The frontend assumes the backend is running locally on port 3001.
+This project is intended as a local demo, not a deployed service.
 ```
 http://localhost:3001
 ```
@@ -96,11 +98,13 @@ DELETE /api/jobs/:id
 ```
 job-tracker-app/
 ├── server.js           # Express server & API routes
-├── jobs.json          # Database file (auto-created)
+├── jobs.example.json   # Example Json
+├── package.json        # Dependencies & scripts
+├── package-lock.json
+├── .gitignore
 ├── public/
-│   └── index.html     # Frontend React app
-├── package.json       # Dependencies & scripts
-└── README.md         # This file
+│   └── index.html      # Frontend React app
+└── README.md
 ```
 
 ## Database
