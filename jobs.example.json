@@ -1,0 +1,16 @@
+[
+  {
+    "id": "job_example_1",
+    "title": "AI Engineer",
+    "company": "Example Corp",
+    "city": "Paris",
+    "country": "France",
+    "salary": "€60k",
+    "visaSponsored": "Not sure",
+    "url": "https://example.com/job",
+    "published": "2026-01-01",
+    "status": "Applied",
+    "createdAt": "2026-01-01T10:00:00.000Z",
+    "lastUpdate": "2026-01-01T10:00:00.000Z"
+  }
+]
