@@ -182,9 +182,6 @@ Check that `jobs.json` exists in the project root and has proper write permissio
 - [ ] Export data to CSV
 - [ ] Add statistics/analytics dashboard
 
-## License
-
-MIT
 
 ---
 
