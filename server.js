@@ -135,6 +135,6 @@ app.delete('/api/jobs/:id', (req, res) => {
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`🚀 Job Tracker Server running on http://localhost:${PORT}`);
-  console.log(`📊 Database file: ${DB_FILE}`);
+  console.log(`Job Tracker Server running on http://localhost:${PORT}`);
+  console.log(`Database file: ${DB_FILE}`);
 });
